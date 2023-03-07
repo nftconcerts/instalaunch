@@ -1,9 +1,8 @@
-# OpenAI API Quickstart - Node.js example app
+# InstaLaunch AI - a OpenAI API Node.js App
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://platform.openai.com/docs/quickstart). It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). Check out the tutorial or follow the instructions below to get set up.
+Creating a new business can be a daunting experience. Many people have unique business ideas but don't know where to start. Now with the help of Artificial Intelligence, anyone can turn their idea into a business in 45 minutes or less.
 
-![Text box that says name my pet with an icon of a dog](https://user-images.githubusercontent.com/10623307/213887080-b2bc4645-7fdb-4dbd-ae42-efce00d0dc29.png)
-
+InstaLaunch works with you to develop a comprehensive business plan for your new idea. Artificial Intelligence will help guide you to creating the best business for your situation. Once your business plan is finalized, you can use the InstaLaunch AI toolsuite to quickly launch and grow your online presence for your new business.
 
 ## Setup
 
@@ -25,14 +24,18 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 
 5. Make a copy of the example environment variables file
 
-   On Linux systems: 
+   On Linux systems:
+
    ```bash
    $ cp .env.example .env
    ```
+
    On Windows:
+
    ```powershell
    $ copy .env.example .env
    ```
+
 6. Add your [API key](https://platform.openai.com/account/api-keys) to the newly created `.env` file
 
 7. Run the app
