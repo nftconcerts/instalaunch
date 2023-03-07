@@ -1,0 +1,129 @@
+body {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  padding: 0;
+
+  margin: 0 auto;
+}
+.header__full__width {
+  height: 100px;
+  width: 100%;
+  margin-bottom: -100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header__full__width a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Signika", sans-serif;
+  transform: all 0.5s;
+}
+.header__full__width a:hover {
+  opacity: 0.8;
+}
+.header__text__logo {
+  max-height: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.header__text__logo:hover {
+  opacity: 0.8;
+}
+.footer__full__width {
+  height: 100px;
+  width: 100%;
+  margin-top: -100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: "Signaki", sans-serif;
+  color: #fff;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.footer__full__width a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Signika", sans-serif;
+  transform: all 0.5s;
+}
+.footer__full__width a:hover {
+  color: #aaa;
+}
+.result__container {
+  animation: fadeIn 1s ease-in-out;
+}
+.result {
+  animation-delay: 1500ms;
+  animation: fadeIn 1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+.result__button {
+  padding: 12px 0;
+  color: #fff;
+  background-image: linear-gradient(180deg, #fbfbfb, #cdcdcd);
+  color: #111;
+  border: none;
+  border-radius: 100px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-size: 18px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+.result__button:hover {
+  transform: scale(1.05);
+  color: #000;
+}
+.input__container {
+  display: flex;
+  flex-direction: column;
+}
+.change__idea {
+  margin-top: 40px;
+  color: #aaa;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.change__idea:hover {
+  color: #fff;
+}
+@keyframes flyAway {
+  0% {
+    transform: translateY(0);
+  }
+  5% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100vh);
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
