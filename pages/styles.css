@@ -22,6 +22,7 @@ body {
   font-weight: bold;
   font-family: "Signika", sans-serif;
   transform: all 0.5s;
+  max-width: 45%;
 }
 .header__full__width a:hover {
   opacity: 0.8;
@@ -39,13 +40,30 @@ body {
   width: 100%;
   margin-top: -100px;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   font-family: "Signaki", sans-serif;
   color: #fff;
-  padding-bottom: 10px;
   box-sizing: border-box;
-  padding: 20px;
+}
+.footer__top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 0px 20px;
+  box-sizing: border-box;
+}
+.footer__full__width p {
+  margin: 0;
+  padding: 0;
+}
+.footer__bottom {
+  width: 100%;
+  text-align: center;
+  color: #2a053d;
+  padding-bottom: 5px;
+  height: 20px;
 }
 .footer__full__width a {
   text-decoration: none;
@@ -55,18 +73,18 @@ body {
   text-transform: uppercase;
   font-family: "Signika", sans-serif;
   transform: all 0.5s;
+  max-width: 45%;
 }
 .footer__full__width a:hover {
   color: #aaa;
 }
-.result__container {
-  animation: fadeIn 1s ease-in-out;
-}
+
 .result {
   animation-delay: 1500ms;
   animation: fadeIn 1s ease-in-out;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .result__button {
   padding: 12px 0;
@@ -81,15 +99,14 @@ body {
   font-size: 18px;
   margin-bottom: 20px;
   transition: all 0.5s;
+  width: 300px;
+  max-width: 100%;
 }
 .result__button:hover {
   transform: scale(1.05);
   color: #000;
 }
-.input__container {
-  display: flex;
-  flex-direction: column;
-}
+
 .change__idea {
   margin-top: 40px;
   color: #aaa;
@@ -125,5 +142,41 @@ body {
   }
   100% {
     opacity: 1;
+  }
+}
+@media screen and (max-width: 650px) {
+  .footer__bottom {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: solid 1px #2a053d;
+    font-size: 14px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 350px) {
+  .header__text__logo {
+    max-height: 14px;
+  }
+  .header__full__width a {
+    font-size: 16px;
+  }
+  .footer__full__width a {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .header__text__logo {
+    max-height: 10px;
+  }
+  .header__full__width a {
+    font-size: 12px;
+  }
+  .footer__full__width a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .result__button {
+    width: 100%;
   }
 }

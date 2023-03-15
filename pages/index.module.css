@@ -38,8 +38,18 @@
   box-sizing: border-box;
 }
 .main .icon {
-  width: 300px;
-  min-width: 50%;
+  max-height: 50vh;
+  max-width: 100%;
+}
+.main .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main .icon__container {
+  width: 50%;
 }
 .main h3 {
   font-size: 32px;
@@ -59,6 +69,7 @@
   display: flex;
   flex-direction: column;
   width: 320px;
+  max-width: 95%;
 }
 .main input[type="text"] {
   padding: 12px 16px;
@@ -66,6 +77,7 @@
   border-radius: 100px;
   margin-bottom: 24px;
   outline-color: #10a37f;
+  max-width: 100%;
 }
 .main ::placeholder {
   color: #8e8ea0;
@@ -80,6 +92,7 @@
   text-align: center;
   cursor: pointer;
   transition: all 0.5s;
+  max-width: 100%;
 }
 .main input[type="submit"]:hover {
   background-image: linear-gradient(180deg, #5ef612, #2d6610);
@@ -88,4 +101,9 @@
 .main .result {
   font-weight: bold;
   margin-top: 40px;
+}
+@media screen and (max-width: 450px) {
+  .main {
+    padding-top: 100px;
+  }
 }

@@ -1,6 +1,6 @@
-# InstaLaunch AI - a OpenAI API Node.js App
+# InstaLaunch AI - a OpenAI API Powered Application
 
-Creating a new business can be a daunting experience. Many people have unique business ideas but don't know where to start. Now with the help of Artificial Intelligence, anyone can turn their idea into a business in 45 minutes or less.
+Creating a new business can be a daunting experience. Many people have unique business ideas but don't know where to start. Now with the help of artificial intelligence, anyone can turn their idea into a business in 45 minutes or less.
 
 InstaLaunch works with you to develop a comprehensive business plan for your new idea. Artificial Intelligence will help guide you to creating the best business for your situation. Once your business plan is finalized, you can use the InstaLaunch AI toolsuite to quickly launch and grow your online presence for your new business.
 
@@ -13,7 +13,7 @@ InstaLaunch works with you to develop a comprehensive business plan for your new
 3. Navigate into the project directory
 
    ```bash
-   $ cd openai-quickstart-node
+   $ cd instalaunch
    ```
 
 4. Install the requirements
@@ -36,7 +36,7 @@ InstaLaunch works with you to develop a comprehensive business plan for your new
    $ copy .env.example .env
    ```
 
-6. Add your [API key](https://platform.openai.com/account/api-keys) to the newly created `.env` file
+6. Add your OpenAI [API key](https://platform.openai.com/account/api-keys) to the newly created `.env` file
 
 7. Run the app
 

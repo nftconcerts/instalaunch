@@ -53,5 +53,5 @@ export default async function (req, res) {
 function generatePrompt(business) {
   const capitalizedBusiness =
     business[0].toUpperCase() + business.slice(1).toLowerCase();
-  return `Return a comma sperated list of at least five names for a new business. The idea for the business is: ${business}. Do not use any existing business names. We want this new business to be new and uniques. comma seperated list`;
+  return `Return a comma sperated list of four potential names for a new business. The idea for the business is: ${business}. Return an unordered list. Do not use any existing business names. We want this new business to be new and uniques. Return a comma seperated list`;
 }
